@@ -11,21 +11,19 @@ public class ProdejceMrkve {
     private String SPZ;
     private double spotrebavozidla;
 
-
-    public String getAdresa() {
-        return adresa;
-    }
-
-    public void setAdresa(String adresa) {
-        this.adresa = adresa;
-    }
-
     public String getJmeno() {
         return jmeno;
     }
 
     public void setJmeno(String jmeno) {
         this.jmeno = jmeno;
+    }
+    public String getAdresa() {
+        return adresa;
+    }
+
+    public void setAdresa(String adresa) {
+        this.adresa = adresa;
     }
 
     public LocalDate getDatumnarozeni() {
